@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PocketBuild</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><main class="app">
+<h1>🖥️PocketBuild </h1>
+<p class="muted">Select your components to see their pictures, prices, specifications, total cost, and basic compatibility.</p>
+<section class="panel">
+  <h2>Choose your parts</h2>
+  <div id="choices" class="choices">
+    
+  </div><div class="actions">
+    <button id="calculate">Calculate Build</button>
+    <button id="reset" class="secondary">Reset Selections</button>
+    </div></section>
+<section class="panel">
+  <h2>Your selected PC parts</h2>
+  <p class="muted">Each selected part appears below with its own image slot.</p>
+  <div id="selectedGrid" class="selected-grid">
+   
+  </div></section>
+<section class="panel">
+  <h2>Build summary</h2>
+  <div class="summary-grid">
+   <div class="metric">
+   <span>Total price</span>
+  <strong id="total">₱0</strong>
+  </div><div class="metric">
+    <span>Estimated component power</span>
+    <strong id="power">0W</strong>
+    </div><div class="metric">
+      <span>Suggested PSU (25% headroom)</span>
+      <strong id="recommended">—</strong>
+      </div></div>
+      <div id="status" class="status">Select all six components, then calculate your build.</div>
+      <ul id="issues"></ul>
+      <p class="muted" style="font-size:12px">For Educational Purposes. 
+      Submitted by Borja, Buenaventura, Flores, San Esteban, Santiago</p></section>
+</main>
+<script src="script.js"></script></body></html>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
